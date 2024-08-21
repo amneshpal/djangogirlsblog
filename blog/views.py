@@ -19,3 +19,21 @@ def header(request):
 def footer(request):
     return render(request, 'footer.html', {})
 
+def about(request):
+    return render(request, 'about.html', {})
+
+def pricing(request):
+    return render(request, 'pricing.html', {})
+
+def contact(request):
+    return render(request, 'contact.html', {})
+
+def child(request):
+    return render(request, 'child.html', {})
+
+def young(request):
+    return render(request, 'young.html', {})
+
+
+def audult(request):
+    return render(request, 'audult.html', {})

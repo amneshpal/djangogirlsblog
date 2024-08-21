@@ -1,0 +1,101 @@
+{% load static %}
+{% include "header.html" %}
+
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'img/1.jpg' %}" height="500" class="d-block w-100" alt="Slide 1">
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>About Us</h1>
+                    <p>Our mission is to redefine the fashion experience by blending contemporary design with timeless elegance. We strive to offer clothing that not only looks good but feels good, knowing that true style starts from within. Whether you're dressing for a special occasion or everyday wear, our collections are designed to elevate your wardrobe and enhance your lifestyle.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add additional carousel items here if needed -->
+    </div>
+</div>
+
+<br>
+<br>
+
+<!-- About Us Content -->
+<div class="container about-section">
+    <h1 class="text-center">About Us</h1>
+    <br>
+    <br>
+    
+    <!-- Our Story Section -->
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>Our Story</h2>
+            <p>At <strong>Your Brand Name</strong>, we believe that clothing is more than just fabric—it's an expression of who you are. Founded in <strong>[Year]</strong> by <strong>[Founder’s Name]</strong>, our journey began with a simple yet powerful vision: to create high-quality, stylish apparel that makes you feel confident and empowered.</p>
+            <p>What started as a small workshop in <strong>[City/Country]</strong> has evolved into a thriving brand known for its commitment to craftsmanship, sustainability, and innovation. Each piece we create tells a story, reflecting our dedication to both fashion and function.</p>
+        </div>
+        <div class="col-lg-6">
+            <img src="{% static 'img/6.jpeg' %}" alt="Our Story Image" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Our Mission Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2>Our Mission</h2>
+            <p>Our mission is to redefine the fashion experience by blending contemporary design with timeless elegance. We strive to offer clothing that not only looks good but feels good, knowing that true style starts from within. Whether you're dressing for a special occasion or everyday wear, our collections are designed to elevate your wardrobe and enhance your lifestyle.</p>
+        </div>
+    </div>
+
+    <!-- Our Values Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Quality:</strong> We are committed to using only the finest materials and adhering to meticulous craftsmanship to ensure every garment meets our high standards.</li>
+                <li><strong>Sustainability:</strong> We believe in fashion with a conscience. Our sustainable practices and ethical sourcing ensure that our products are kind to the planet and its people.</li>
+                <li><strong>Innovation:</strong> We stay ahead of trends by embracing innovative techniques and technologies, ensuring our designs are both modern and relevant.</li>
+                <li><strong>Customer-Centricity:</strong> Your satisfaction is our priority. We are dedicated to providing exceptional customer service and a seamless shopping experience.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Meet the Team Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2>Meet the Team</h2>
+        </div>
+        <!-- Team Member 1 -->
+        <div class="col-md-4 team-member text-center">
+            <img src="{% static 'img/9.webp' %}" alt="Amnesh Pal" class="img-fluid rounded-circle">
+            <h4>Amnesh Pal</h4>
+            <p>Founder & CEO</p>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-4 team-member text-center">
+            <img src="{% static 'img/13.jpg' %}" alt="Jane Smith" class="img-fluid rounded-circle">
+            <h4>Jane Smith</h4>
+            <p>Creative Director</p>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-4 team-member text-center">
+            <img src="{% static 'img/14.jpg' %}" alt="Bob Johnson" class="img-fluid rounded-circle">
+            <h4>Bob Johnson</h4>
+            <p>Head of Marketing</p>
+        </div>
+    </div>
+
+    <!-- Join Us Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2>Join Us</h2>
+            <p>We invite you to join our community and experience the difference of <strong>Your Brand Name</strong>. Follow us on social media, subscribe to our newsletter, and be the first to know about our latest collections, exclusive offers, and behind-the-scenes updates.</p>
+        </div>
+    </div>
+</div>
+
+{% include "footer.html" %}

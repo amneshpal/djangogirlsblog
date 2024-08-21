@@ -9,9 +9,13 @@ h1{
 
 .active{
     background-color: red;
+    
 }
 
 
 /* marquee{
     background-color: #dab2ff;
     } */
+    .active{
+        background-color: red;
+    }
