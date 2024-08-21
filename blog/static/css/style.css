@@ -1,0 +1,13 @@
+body {
+    background-color: #d34343;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: red;
+}
+
+.active{
+    background-color: red;
+}
+
